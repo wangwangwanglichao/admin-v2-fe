@@ -49,7 +49,6 @@ h4 {
 p {
   font-size: 16px;
   line-height: 25px;
-  padding-top: 20px;
 }
 
 .panel {
@@ -412,18 +411,23 @@ footer p {
   display: block;
 }
 
-.top-navbar .nav > li > a {
+.top-navbar .nav > li > a,
+.top-navbar .nav > li > span {
   position: relative;
   display: block;
   padding: 20px;
-  color: #FFFFFF;
+  color: #666666;
   margin: 0;
 }
 
-.top-navbar .nav > li > a:hover, .top-navbar .nav > li > a:focus {
+.top-navbar .nav > li > a:hover,
+.top-navbar .nav > li > a:focus,
+.top-navbar .nav > li > span:hover,
+.top-navbar .nav > li > span:focus {
   text-decoration: none;
   color: #319DB5 !important;
   background: transparent;
+  cursor: pointer;
 }
 
 .top-navbar .dropdown-menu {

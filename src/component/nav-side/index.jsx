@@ -19,7 +19,7 @@ export default class NavSide extends React.Component {
             </li>
             <li className="active">
               <Link to="/product">
-                <i className="fa fa-sitemap"></i>
+                <i className="fa fa-list"></i>
                 <span>商品</span>
                 <span className="fa arrow"></span>
               </Link>
@@ -34,7 +34,7 @@ export default class NavSide extends React.Component {
             </li>
             <li className="active">
               <Link to="/order">
-                <i className="fa fa-sitemap"></i>
+                <i className="fa fa-check-square-o"></i>
                 <span>订单</span>
                 <span className="fa arrow"></span>
               </Link>
@@ -46,7 +46,7 @@ export default class NavSide extends React.Component {
             </li>
             <li className="active">
               <Link to="/user">
-                <i className="fa fa-sitemap"></i>
+                <i className="fa fa-user-o"></i>
                 <span>用户</span>
                 <span className="fa arrow"></span>
               </Link>
