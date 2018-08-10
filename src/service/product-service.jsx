@@ -3,7 +3,7 @@ import MUtil from "util/mm.jsx";
 const _mm = new MUtil();
 
 class Product {
-   // 获取商品列表数据:
+   // 获取商品列表信息:
    getProductList(listParam) {
       let url = "",
           data = {};
@@ -33,7 +33,7 @@ class Product {
       });
    }
 
-   // 变更商品销售状态:
+   // 变更商品销售状态信息:
    setProductStatus(productInfo) {
       return _mm.request({
          type: "post",
@@ -53,7 +53,7 @@ class Product {
       });
    }
 
-   // 检查保存商品的表单数据
+   // 检查保存商品的表单数据信息
    checkProduct(product) {
       let result = {
          status: true,
@@ -97,7 +97,7 @@ class Product {
       return result;
    }
 
-   // 保存商品数据
+   // 保存商品数据信息
    saveProduct(product) {
       return _mm.request({
          type: "post",
@@ -105,6 +105,26 @@ class Product {
          data: product
       });
    }
+
+   // 新增品类信息
+   saveCategory(category) {
+      return _mm.request({
+         type: "post",
+         url: "/manage/category/add_category.do",
+         data: category
+      });
+
+   }
+
+   // 修改更新品类名称信息
+   updateCategoryName(category) {
+      return _mm.request({
+         type: "post",
+         url: "/manage/category/set_category_name.do",
+         data: category
+      })
+   }
+
 }
 
 export default Product;
