@@ -2,7 +2,7 @@
 import MUtil from "util/mm.jsx";
 const _mm = new MUtil();
 
-class Product {
+export default class Product {
    // 获取商品列表信息:
    getProductList(listParam) {
       let url = "",
@@ -126,5 +126,3 @@ class Product {
    }
 
 }
-
-export default Product;
