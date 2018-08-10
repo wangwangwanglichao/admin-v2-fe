@@ -10,11 +10,10 @@ import CategorySelector from "./category-selector.jsx";
 import "./save.scss";
 
 export default class ProductDetail extends React.Component {
-   constructor() {
-      super();
+   constructor(props) {
+      super(props);
       this.state = {
-         // id: this.props.match.params.pid,
-         id:30,
+         id: this.props.match.params.pid,
          name: "",
          subtitle: "",
          categoryId: 0,
@@ -44,7 +43,6 @@ export default class ProductDetail extends React.Component {
                }
             });
             this.setState(res);
-            console.dir(res);
          }, err => {
             _mm.errorTips(err);
          })

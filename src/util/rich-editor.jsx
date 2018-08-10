@@ -3,15 +3,22 @@
 import React from "react";
 import Simditor from "simditor";
 import "simditor/styles/simditor.scss";
+import "./rich-editor.scss";
 
 // 通用富文本编辑器组件:
 class RichEditor extends React.Component {
-   constructor() {
-      super();
+   constructor(props) {
+      super(props);
    }
 
    componentDidMount() {
       this.loadEditor();
+   }
+
+   componentWillReceiveProps(nextProps) {
+      if (this.props.defaultDetail !== nextProps.defaultDetail) {
+         this.simditor.setValue(nextProps.defaultDetail);
+      }
    }
 
    /*加载富文本编辑器*/

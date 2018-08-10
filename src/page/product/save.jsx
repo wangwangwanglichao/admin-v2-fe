@@ -16,11 +16,10 @@ const _product = new Product();
 import "./save.scss";
 
 class ProductSave extends React.Component {
-   constructor() {
-      super();
+   constructor(props) {
+      super(props);
       this.state = {
-         /*id                  : this.props.match.params.pid,*/
-         id: 30,
+         id                  : this.props.match.params.pid,
          name                : '',
          subtitle            : '',
          categoryId          : 0,
@@ -40,6 +39,7 @@ class ProductSave extends React.Component {
    /*加载商品详情信息*/
    loadProduct() {
       if (this.state.id) {
+         // 有id的时候,表示是编辑功能,需要表单回填;
          _product.getProduct(this.state.id).then((res) => {
             let images = res.subImages.split(",");
             res.subImages = images.map((imgUri) => {
