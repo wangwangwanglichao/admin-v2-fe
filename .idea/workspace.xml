@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ddf875f-ac6f-4237-ab53-650542fc412f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/page/order/detail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/order/detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/order/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/order/search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/order-service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/product-service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/product-service.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="7ddf875f-ac6f-4237-ab53-650542fc412f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="detail.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/order/detail.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            <state relative-caret-position="778">
+              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#28#54#0" expanded="true" />
@@ -38,6 +29,18 @@
                 <element signature="e#1694#2021#0" />
                 <element signature="e#2738#3072#0" />
                 <element signature="e#3612#4852#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order-service.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/service/order-service.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,10 +115,10 @@
         <option value="$PROJECT_DIR$/src/page/order/search.jsx" />
         <option value="$PROJECT_DIR$/src/service/product-service.jsx" />
         <option value="$PROJECT_DIR$/src/app.jsx" />
-        <option value="$PROJECT_DIR$/src/service/order-service.jsx" />
         <option value="$PROJECT_DIR$/src/page/order/index.jsx" />
         <option value="$PROJECT_DIR$/src/page/order/detail.scss" />
         <option value="$PROJECT_DIR$/src/page/order/detail.jsx" />
+        <option value="$PROJECT_DIR$/src/service/order-service.jsx" />
       </list>
     </option>
   </component>
@@ -235,12 +238,12 @@
       <workItem from="1533850700217" duration="1234000" />
       <workItem from="1533884440669" duration="4095000" />
       <workItem from="1533913348517" duration="3654000" />
-      <workItem from="1533925400067" duration="6794000" />
+      <workItem from="1533925400067" duration="7580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113282000" />
+    <option name="totallyTimeSpent" value="114068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="0" width="1577" height="1040" extended-state="0" />
@@ -679,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/order-service.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -756,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/order/detail.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="778">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#28#54#0" expanded="true" />
@@ -767,6 +760,16 @@
             <element signature="e#1694#2021#0" />
             <element signature="e#2738#3072#0" />
             <element signature="e#3612#4852#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/order-service.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
